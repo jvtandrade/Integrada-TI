@@ -1,0 +1,175 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+display: grid;
+height: 100vh;
+grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr ;
+grid-template-rows: 0.5fr 1.5fr 1.2fr 0.8fr;
+grid-template-areas: "nav nav nav nav"
+                     "sidebar main main main"
+                     "sidebar conteudo1 conteudo2 conteudo3"
+                     "sidebar footer footer footer";
+    grid-gap: 0.5em;
+    font-size: 16px;
+    font-family: tahoma;
+    text-align: center;
+    font-weight: 800;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    grid-area: nav;
+    border-radius: 0.8em;
+}
+
+#nav img{
+    height: 150px;
+    width: 150px;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+#menu a{
+text-decoration: none;
+font-size: 16px;
+margin-left: 20px;
+margin-right: 5px;
+padding: 15px;
+color: black;
+text-align: center;
+}
+
+#menu a:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#main{
+    background-color: plum;
+    grid-area: main;
+    border-radius: 0.8em;
+}
+
+#Humanas a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+  padding: 15px ;
+    color: black;
+    text-align: center;
+}
+ 
+#Humanas a:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#sidebar{
+    background-color: lightgreen;
+    grid-area: sidebar;
+    border-radius: 0.8em;
+}
+
+#Natureza a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+  padding: 15px ;
+    color: black;
+    text-align: center;
+}
+#Natureza a:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#conteudo1{
+    background-color: lightcoral;
+    grid-area: conteudo1;
+    border-radius: 0.8em;
+}
+
+#Matematica a{
+    text-decoration: none;
+    font-size: 5px;
+    margin-left: 20px;
+    margin-right: 5px;
+  padding: 15px ;
+    color: black;
+    text-align: center;
+}
+#Matematica a:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#conteudo2{
+    background-color: lightyellow;
+    grid-area: conteudo2;
+    border-radius: 0.8em;
+}
+
+#Linguagens a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+  padding: 15px ;
+    color: black;
+    text-align: center;
+}
+#Linguagens a:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#conteudo3{
+    background-color: lightgray;
+    grid-area: conteudo3;
+    border-radius: 0.8em;
+}
+
+#TI a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+  padding: 15px ;
+    color: black;
+    text-align: center;
+}
+
+#TI a:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+#footer{
+    background-color: lightsalmon;
+    grid-area: footer;
+    border-radius: 0.8em;
+}
+
+#ProjetoDoAno a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding: 15px ;
+    color: black;
+    text-align: center;
+}
+ 
+#ProjetoDoAno a:hover{
+    background-color: lightslategray;
+    color: white;
+ 
+}
